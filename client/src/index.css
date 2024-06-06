@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color--: #f0eee5;
+  --color-1--: #c5ba87;
+  --color-2--: #9b8d50;
+  --color-3--: #706327;
+  --color-4--: #463b0d;
+  --color-5--: #332a01;
+  --black-1--: #070707;
+}
+
+body {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Tajawal", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Comfortaa", sans-serif;
+}
