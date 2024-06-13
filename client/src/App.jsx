@@ -1,9 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import LagosBar from "./pages/LagosBar";
+
 function App() {
   return (
     <>
-      <h1>Testing React page</h1>
-      <h1>About Us</h1>
-      <h1>OUR SPACES</h1>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/the-lagos-bar" element={<LagosBar />} />
+      </Routes>
     </>
   );
 }
